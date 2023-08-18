@@ -94,9 +94,8 @@ button{
 }
 .card2{
     background-image: url(images/sample\ castle1.png);
-}.card3{
-    background-image: url(images/sample\ portraitj.png);
-}.card4{
+}
+.card4{
     background-image: url(images/image\ 4.png);
 }
 
@@ -113,5 +112,32 @@ h5{
     font-size: 8px;
 }
 
+.newspaper-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.column {
+    flex-basis: calc(33.33% - 20px);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 14px;
+}
 
 
