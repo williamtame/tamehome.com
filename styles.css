@@ -91,10 +91,10 @@ button{
     background-image: url(images/sample\ thermometer.png);
 }
 .card2{
-    background-image: url(images/image\ 4.png);
+    background-image: url(images/sample\ castle1.png);
 }
 .card3{
-    background-image: url(images/sample\ castle1.png);
+    background-image: url(images/image\ 4.png);
 }
 
 .card:hover{
@@ -144,4 +144,3 @@ h5{
     color: #fff;
     padding: 10px;
 }
-
