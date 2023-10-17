@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Parenting Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Parenting Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Welcome to our Parenting Website</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla risus vitae turpis laoreet, eget tristique quam laoreet. Vestibulum sed massa a lorem dapibus iaculis.
+    </p>
+
+    <div class="main-video">
+      <h3>Main Video</h3>
+      <iframe src="https://www.youtube.com/embed/MAIN_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h3>More Videos</h3>
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <div class="video-info">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+          <p>
+            <span class="heading">Heading Text:</span> Normal text goes here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+<style>
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+.main-video {
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px; /* Adjust the value as needed for the desired roundness */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-info {
+  display: flex;
+  align-items: center;
+}
+
+.video-info p {
+  flex: 1;
+  margin-right: 30px;
+  padding-left: 50px;
+}
+
+.video-info p .heading {
+  font-weight: bold;
+  /* Add other styling as needed, e.g., color, font-size */
+}
+
+</style>
