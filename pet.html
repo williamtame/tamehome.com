@@ -37,8 +37,16 @@
     <p>This is the description for the main video. You can provide information or details about the video here.</p>
   </div>
 
-  <div class="image-under-poster">
-    <img src="images/Lulu Channel QR code.png" alt="Image Description">
+  <div class="image-gallery">
+    <div class="third-width">
+      <img src="images/PET Letters glow.png" alt="Image 1">
+    </div>
+    <div class="third-width">
+      <img src="images/PET Letters glow.png" alt="Image 2">
+    </div>
+    <div class="third-width">
+      <img src="images/Lulu Channel QR code.png" alt="Image 3">
+    </div>
   </div>
 
 </body>
@@ -86,11 +94,11 @@ nav a:hover{
 }
 
 .main-video {
-  margin: 20px;
+  margin: 15px;
   border-radius: 10px;
   overflow: hidden;
   display: block;
-  width: 60%; /* Set the main video width to 60% of the screen width */
+  width: 55%; /* Set the main video width to 55% of the screen width */
   margin: 0 auto; /* Center the video horizontally */
 }
 
@@ -122,6 +130,8 @@ iframe {
 .poster {
   float: right;
   width: 30%; /* Adjust the poster's width to make it smaller */
+  margin-right: 30px;
+  margin-top: 39px;
 }
 
 .poster img {
@@ -129,6 +139,7 @@ iframe {
   height: auto;
   display: block;
   border-right: 20%;
+  border-radius: 10px;
 }
 
 /* Position the image under the poster */
@@ -136,10 +147,21 @@ iframe {
   text-align:right
 }
 
-.image-under-poster img {
-  width: 100px; /* Adjust the width to your preferred size */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 150px;
+.image-gallery {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  overflow-x: auto; /* Allow horizontal scrolling if screen width is limited */
+}
+
+.third-width {
+  flex: 1; /* Each div takes one-third of the available space */
+}
+
+.third-width img {
+  width: 100px; /* Images fill their parent divs */
+  height: auto;
+  margin: 5px;
 }
 
 </style>
