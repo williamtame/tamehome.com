@@ -37,8 +37,9 @@
     <p>This is the description for the main video. You can provide information or details about the video here.</p>
   </div>
 
-
-  <img src="images/Lulu Channel QR code.png" alt="Lulu Channel QR code">
+  <div class="image-under-poster">
+    <img src="images/Lulu Channel QR code.png" alt="Image Description">
+  </div>
 
 </body>
 </html>
@@ -130,10 +131,15 @@ iframe {
   border-right: 20%;
 }
 
-img {
-  width: 200px;
-  height: auto;
-  text-align: right;
+/* Position the image under the poster */
+.image-under-poster {
+  text-align:right
+}
+
+.image-under-poster img {
+  width: 100px; /* Adjust the width to your preferred size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 150px;
 }
 
 </style>
