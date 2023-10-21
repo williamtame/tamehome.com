@@ -45,7 +45,11 @@
       <img src="images/cry is ok.jpg" alt="Image 2">
     </div>
     <div class="image3-third">
+      <div class="image-wrapper">
       <img src="images/Lulu Channel QR code.png" alt="Image 3">
+        <span class="caption-line1">Lulu Zeng</span>
+        <span class="caption-line2">Channel QR Code</span>
+      </div>
     </div>
   </div>
 
@@ -120,7 +124,7 @@ iframe {
 /* Existing styles */
 
 .video-description {
-  max-width: 800px;
+  max-width: 55%;
   margin: 20px auto;
   text-align: center;
   font-size: 18px;
@@ -182,6 +186,31 @@ iframe {
 .image3-third img {
   height: 100px;
   margin: 5px;
+  padding-bottom: 10px;
 }
+
+.image-caption {
+  text-align: center; /* Center the caption text */
+  margin-top: 5px; /* Add spacing between the image and caption */
+  color: #fff; /* Caption text color */
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption-line1 {
+  font-weight: 600;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.caption-line2 {
+  font-weight: 300;
+  color: #fff;
+}
+
 
 </style>
