@@ -38,13 +38,13 @@
   </div>
 
   <div class="image-gallery">
-    <div class="third-width">
+    <div class="image1-third">
       <img src="images/PET Letters glow.png" alt="Image 1">
     </div>
-    <div class="third-width">
+    <div class="image2-third">
       <img src="images/PET Letters glow.png" alt="Image 2">
     </div>
-    <div class="third-width">
+    <div class="image3-third">
       <img src="images/Lulu Channel QR code.png" alt="Image 3">
     </div>
   </div>
@@ -124,7 +124,7 @@ iframe {
   margin: 20px auto;
   text-align: center;
   font-size: 18px;
-  color: #333; /* Text color */
+  color: #000000; /* Text color */
 }
 
 .poster {
@@ -154,13 +154,30 @@ iframe {
   overflow-x: auto; /* Allow horizontal scrolling if screen width is limited */
 }
 
-.third-width {
-  flex: 1; /* Each div takes one-third of the available space */
+.image1-third {
+  flex: 1;
 }
 
-.third-width img {
-  width: 100px; /* Images fill their parent divs */
-  height: auto;
+.image2-third {
+  flex: 1;
+}
+
+.image3-third {
+  flex: 1;
+}
+
+.image1-third img {
+  height: 200px;
+  margin: 5px;
+}
+
+.image2-third img {
+  height: 200px;
+  margin: 5px;
+}
+
+.image3-third img {
+  height: 100px;
   margin: 5px;
 }
 
