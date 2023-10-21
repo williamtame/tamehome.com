@@ -2,81 +2,64 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Parenting Website</title>
-
-  
-
+  <title>Your Webpage</title>
+  <link rel="stylesheet" type="text/css" href="styles.css2">
 </head>
 <body>
   <header>
-    <h1>Parenting Website</h1>
+    <h1>Your Title</h1>
   </header>
 
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Articles</a></li>
       <li><a href="#">Videos</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
-  <div class="container">
-    <h2>Welcome to our Parenting Website</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla risus vitae turpis laoreet, eget tristique quam laoreet. Vestibulum sed massa a lorem dapibus iaculis.
-    </p>
+  <div class="poster">
+    <img src="images/Lulu PET book.png" alt="Poster Image">
+  </div>
+  
+  <div class="paragraph">
+    <p>This is your paragraph content. It will appear to the left of the poster.</p>
+  </div>
 
-    <div class="main-video">
-      <h3>Main Video</h3>
-      <iframe src="https://www.youtube.com/watch?v=CnODoZJln4Q" frameborder="0" allowfullscreen></iframe>
+  <div class="main-video">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/CnODoZJln4Q" frameborder="0" allowfullscreen></iframe>
     </div>
+  </div>
 
-    <h3>More Videos</h3>
-    <div class="video-grid">
-      <div class="video-wrapper">
-        <div class="video-info">
-          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-          <p>
-            <span class="heading">Heading Text:</span> Normal text goes here.
-          </p>
-        </div>
-      </div>
-    </div>
+  <div class="video-description">
+    <p>This is the description for the main video. You can provide information or details about the video here.</p>
+  </div>
 
-    <div class="video-grid">
-      <div class="video-wrapper">
-        <div class="video-info">
-          <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-          <p>
-            <span class="heading">Heading Text:</span> Normal text goes here.
-          </p>
-        </div>
-      </div>
-    </div>
 </body>
 </html>
 
-
 <style>
-.body {
+
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #5B3277; /* Dark Purple Background Color */
+  color: #FFFFFF; /* Text Color */
+  text-align: center;
 }
 
 header {
-  background-color: #3498db;
-  color: white;
+  background-color: #463064; /* Darker Purple Header Background */
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #333;
-  color: white;
-  padding: 15px;
+  background-color: #4A366E; /* Slightly Darker Purple Navigation Background */
+  padding: 10px;
+  cursor: pointer; /* Add pointer on hover */
 }
 
 nav ul {
@@ -92,48 +75,49 @@ nav li {
 }
 
 .main-video {
-  text-align: center;
   margin: 20px;
-  border-radius: 10px; /* Adjust the value as needed for the desired roundness */
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+  width: 60%; /* Set the main video width to 60% of the screen width */
+  margin: 0 auto; /* Center the video horizontally */
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+  overflow: hidden;
 }
 
 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  display: block;
-  margin: 0 auto;
   border-radius: 10px;
 }
 
-.video-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
-}
+/* Existing styles */
 
-.container {
-  max-width: 1200px;
+.video-description {
+  max-width: 800px;
   margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Text color */
 }
 
-.video-info {
-  display: flex;
-  align-items: center;
+.poster {
+  float: right;
+  width: 30%; /* Adjust the poster's width to make it smaller */
 }
 
-.video-info p {
-  flex: 1;
-  margin-right: 30px;
-  padding-left: 50px;
-}
-
-.video-info p .heading {
-  font-weight: bold;
-  /* Add other styling as needed, e.g., color, font-size */
+.poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-right: 20%;
 }
 
 </style>
