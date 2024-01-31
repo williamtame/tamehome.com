@@ -94,8 +94,6 @@
     margin-bottom: 10px;
   }
   
-  
-  
   @media only screen and (max-width: 600px) {
     .navbar, .bottomnavbar {
       flex-direction: column;
@@ -107,7 +105,6 @@
       width: 100%;
     }
   }
-  
   
   .navbar {
     display: flex;
@@ -128,7 +125,7 @@
   }
   
   .navbar a:hover {
-    background-color: #4ba0c7;
+    background-color: #00dd42e0;
   }
   
   /* Add this CSS for the second grid-container with eight columns */
@@ -284,7 +281,7 @@
   }
   
   .bottomnavbar a:hover {
-    background-color: #555;
+    background-color: #00dd42e0;
   }
   
   /* Add this CSS for the second grid-container with eight columns */
