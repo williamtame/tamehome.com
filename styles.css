@@ -36,6 +36,17 @@
     color: #ffffff;
   }
   
+  .colorful-text::before {
+    content: attr(data-first-four);
+    color: green;
+  }
+  
+  .colorful-text::after {
+    content: attr(data-last-four);
+    color: black;
+  }
+  
+
   .grid-item1 {
     background-color: #ffffff;
     padding: 10px;
@@ -76,7 +87,7 @@
   .text-mergetitle {
     grid-column: 1 / span 8; /* Make the text grid item span columns 5 to 8 */
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 60px;
     text-align: center;
     color: #007930;
     margin-top: 10px;
