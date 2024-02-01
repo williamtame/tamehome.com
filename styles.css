@@ -55,9 +55,7 @@
   
   .image-item1 {
     grid-column: 3 / span 4;
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    text-align: center;
   }
   
   .grid-item2 {
@@ -90,10 +88,10 @@
     grid-column: 2 / span 6; /* Make the text grid item span columns 2 to 6 */
     font-weight: bolder;
     font-size: 60px;
+    text-align: center;
     color: #007930;
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   @media only screen and (max-width: 600px) {
