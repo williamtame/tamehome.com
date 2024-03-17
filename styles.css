@@ -20,7 +20,7 @@
   .container {
     max-width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     justify-content: center; /* Ensure the grid content is centered horizontally */
   }
   
