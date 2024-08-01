@@ -26,7 +26,7 @@
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(8, minmax(0, 1fr)); /* Change to eight columns */
+    grid-template-columns: repeat(12, minmax(0, 1fr)); /* Change to eight columns */
     gap: 10px;
   }
   
