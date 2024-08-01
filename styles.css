@@ -87,7 +87,7 @@
   .text-mergetitle {
     grid-column: 5 / span 4; /* Make the text grid item span columns 5 to 8 */
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 62px;
     text-align: center;
     color: #007930;
     margin-top: 10px;
