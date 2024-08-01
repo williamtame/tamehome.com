@@ -144,7 +144,7 @@
   }
   
   .image-cover {
-    grid-column: span 3; /* Make the image grid item span three columns */
+    grid-column: 4 / span 3; /* Make the image grid item span three columns */
     grid-row: span 1; /* Make the image grid item span two rows */
   }
   
