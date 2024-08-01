@@ -144,7 +144,7 @@
   }
   
   .image-cover {
-    grid-column: 2 / span 3; /* Make the image grid item span three columns */
+    grid-column: 2 / span 4; /* Make the image grid item span four columns */
     grid-row: span 1; /* Make the image grid item span three rows */
   }
   
@@ -155,7 +155,7 @@
   }
   
   .text-content {
-    grid-column: 4 / span 5; /* Make the text grid item span columns 4 to 8 */
+    grid-column: 5 / span 4; /* Make the text grid item span columns 4 to 8 */
     grid-row: span 1; /* You can adjust the number of rows as needed */
     padding: 10px; /* Add padding for better aesthetics */
     background-color: #ffffff; /* Example background color, customize as needed */
@@ -188,7 +188,7 @@
   
   
   .text-content2 {
-    grid-column: 1 / span 5; /* Make the text grid item span columns 4 to 8 */
+    grid-column: 5 / span 4; /* Make the text grid item span columns 4 to 8 */
     grid-row: span 1; /* You can adjust the number of rows as needed */
     padding: 10px; /* Add padding for better aesthetics */
     background-color: #ffffff; /* Example background color, customize as needed */
