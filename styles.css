@@ -26,7 +26,7 @@
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr)); /* Change to eight columns */
+    grid-template-columns: repeat(12, minmax(0, 1fr)); /* Change to twelve columns */
     gap: 10px;
   }
   
@@ -144,8 +144,8 @@
   }
   
   .image-cover {
-    grid-column: 1 / span 3; /* Make the image grid item span three columns */
-    grid-row: span 3; /* Make the image grid item span two rows */
+    grid-column: 2 / span 3; /* Make the image grid item span three columns */
+    grid-row: span 1; /* Make the image grid item span three rows */
   }
   
   .image-cover img {
