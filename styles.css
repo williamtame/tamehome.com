@@ -134,8 +134,16 @@ body {
 }
 
 .grid-item.image-cover img {
-  width: 100%;
+  width: 90%;
   height: auto;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.image-cover img:hover {
+  transform: scale(1.1);
+  border-radius: 8px;
+  /* Add any additional styling for the hover effect */
 }
 
 .text-contentme {
@@ -151,7 +159,7 @@ body {
 
 .caption {
   margin-top: 5px;
-  font-size: 32px;
+  font-size: 26px;
   color: #555;
   font-weight: bold; /* Make the text bold */
   color: #007930; /* Match the color with the merge title */
@@ -165,4 +173,10 @@ body {
 .small-image img {
   width: 100%;
   height: auto;
+}
+
+.small-image img:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  /* Add any additional styling for the hover effect */
 }
